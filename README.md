@@ -30,8 +30,16 @@ Generate em CSS value.
 
     @use "@sass-collective/sass-em"
 
+    // Function
+
     body {
         font-size: sass-em.em(16);
+    }
+
+    // Mixin
+
+    body {
+        @include sass-em.em(16);
     }
 
 #### CSS
