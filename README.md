@@ -8,22 +8,6 @@ Generate em CSS value.
 
 ## Usage
 
-### Global @import
-
-#### Sass
-
-    @import "@sass-collective/sass-em"
-
-    body {
-        font-size: sass-em(16);
-    }
-
-#### CSS 
-
-    body {
-        font-size: 1em;
-    }
-
 ### Module System
 
 #### Sass
@@ -43,6 +27,30 @@ Generate em CSS value.
     }
 
 #### CSS
+
+    body {
+        font-size: 1em;
+    }
+
+### Legacy @import
+
+#### Sass
+
+    @import "@sass-collective/sass-em"
+
+    // Function
+
+    body {
+        font-size: sass-em(16);
+    }
+
+    // Mixin
+
+    body {
+        @include sass-em(16);
+    }
+
+#### CSS 
 
     body {
         font-size: 1em;
