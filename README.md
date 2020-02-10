@@ -1,4 +1,10 @@
-# Sass Em
+![Sass Em](.repo/banner.png)
+
+![Version](https://flat.badgen.net/npm/v/@sass-collective/sass-em)
+![Download](https://flat.badgen.net/npm/dt/@sass-collective/sass-em)
+![License](https://flat.badgen.net/npm/license/@sass-collective/sass-em)
+
+## Introduction
 
 Generate em CSS value.
 
