@@ -5,6 +5,6 @@
 @use "./variables";
 @use "./functions";
 
-@mixin em($value, $context: variables.$baseline) {
-    font-size: functions.em($value, $context);
+@mixin em($property, $value, $context: variables.$baseline) {
+    #{$property}: functions.em($value, $context);
 }
