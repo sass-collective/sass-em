@@ -28,8 +28,6 @@ em($property, $values, $context);
 
 ### Module System
 
-#### Sass
-
 ```scss
 @use "@sass-collective/sass-em";
 
@@ -54,18 +52,7 @@ body {
 }
 ```
 
-#### CSS
-
-```css
-body {
-    font-size: 1em;
-    padding: 1.25em 1.875em;
-}
-```
-
 ### Legacy @import
-
-#### Sass
 
 ```scss
 @import "@sass-collective/sass-em";
@@ -85,7 +72,7 @@ body {
 }
 ```
 
-#### CSS
+### CSS
 
 ```css
 body {
