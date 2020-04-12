@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-## [v1.3.0 (2020-04-12)](https://github.com/sass-collective/sass-rem/compare/v1.2.1...v1.3.0)
+## [v1.3.0 (2020-04-12)](https://github.com/sass-collective/sass-em/compare/v1.2.1...v1.3.0)
 
 ### Added
 
