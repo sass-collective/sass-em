@@ -1,7 +1,7 @@
 {
     "name": "@sass-collective/sass-em",
     "version": "1.4.1",
-    "description": "Generate em CSS value.",
+    "description": "Sass function & mixin to generate em value.",
     "main": "index.scss",
     "scripts": {},
     "engines": {
