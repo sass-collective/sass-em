@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Generate em value.
+Sass function & mixin to generate em value.
 
 ## Install
 
