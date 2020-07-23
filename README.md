@@ -33,6 +33,7 @@ em($property, $values, $context);
 
 // Function
 
+html,
 body {
     // Single value
     font-size: sass-em.em(16, 16);
@@ -43,6 +44,7 @@ body {
 
 // Mixin
 
+html,
 body {
     // Single value
     @include sass-em.em(font-size, 16, 16);
@@ -59,6 +61,7 @@ body {
 
 // Function
 
+html,
 body {
     font-size: sass-em(16, 16);
     padding: sass-em(20 30, 16);
@@ -66,6 +69,7 @@ body {
 
 // Mixin
 
+html,
 body {
     @include sass-em(font-size, 16, 16);
     @include sass-em(padding, 20 30, 16);
@@ -75,6 +79,7 @@ body {
 ### CSS
 
 ```css
+html,
 body {
     font-size: 1em;
     padding: 1.25em 1.875em;
