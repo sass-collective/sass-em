@@ -3,12 +3,10 @@
     "version": "1.4.2",
     "description": "Sass function & mixin to generate em value.",
     "main": "index.scss",
-    "scripts": {},
     "engines": {
         "node": ">=10.0.0",
         "npm": ">=6.0.0"
     },
-    "devDependencies": {},
     "dependencies": {
         "@sass-collective/strip-unit": "^1.2.0",
         "sass": "^1.26.10"
@@ -31,6 +29,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sass-collective/sass-em.git"
+        "url": "https://github.com/sass-collective/sass-em.git"
     }
 }
