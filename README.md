@@ -1,4 +1,4 @@
-![Sass Em](.repo/banner.png)
+![Sass Em](.github/banner.png)
 
 [![Version](https://flat.badgen.net/npm/v/@sass-collective/sass-em)](https://www.npmjs.com/package/@sass-collective/sass-em)
 [![Download](https://flat.badgen.net/npm/dt/@sass-collective/sass-em)](https://www.npmjs.com/package/@sass-collective/sass-em)
