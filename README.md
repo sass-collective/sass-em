@@ -39,7 +39,7 @@ body {
     font-size: sass-em.em(16, 16);
     
     // Multiple values
-    padding: sass-em.em(20 30, 16);
+    margin: sass-em.em(20 30, 16);
 }
 
 // Mixin
@@ -50,7 +50,7 @@ body {
     @include sass-em.em(font-size, 16, 16);
     
     // Multiple values
-    @include sass-em.em(padding, 20 30, 16);
+    @include sass-em.em(margin, 20 30, 16);
 }
 ```
 
@@ -64,7 +64,7 @@ body {
 html,
 body {
     font-size: sass-em(16, 16);
-    padding: sass-em(20 30, 16);
+    margin: sass-em(20 30, 16);
 }
 
 // Mixin
@@ -72,7 +72,7 @@ body {
 html,
 body {
     @include sass-em(font-size, 16, 16);
-    @include sass-em(padding, 20 30, 16);
+    @include sass-em(margin, 20 30, 16);
 }
 ```
 
@@ -82,6 +82,6 @@ body {
 html,
 body {
     font-size: 1em;
-    padding: 1.25em 1.875em;
+    margin: 1.25em 1.875em;
 }
 ```
