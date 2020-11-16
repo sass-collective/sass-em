@@ -15,7 +15,7 @@
         @if $value == 0 {
             $value: 0;
         } @else {
-            $value: $value / strip-unit.strip-unit($context) * 1rem;
+            $value: $value / strip-unit.strip-unit($context) * 1em;
         }
 
         @if meta.type-of($values) == "number" {
