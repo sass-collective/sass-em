@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## [v1.5.1 (2020-11-16)](https://github.com/sass-collective/sass-em/compare/v1.5.0...v1.5.1)
+
+### Fixed
+
+* Fixed result ``em`` unit
+
 ## [v1.5.0 (2020-07-24)](https://github.com/sass-collective/sass-em/compare/v1.4.2...v1.5.0)
 
 ### Changed
