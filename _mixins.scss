@@ -2,9 +2,8 @@
 //                                            MIXINS                                             //
 // ============================================================================================= //
 
-@use "~@sass-collective/property";
-@use "./functions";
+@use "~@sass-collective/em";
 
 @mixin em($property, $value, $context, $important: false) {
-    @include property.create($property, functions.em($value, $context), $important);
+    @include em.convert($property, $value, $context, $important);
 }

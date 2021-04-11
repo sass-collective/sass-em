@@ -2,28 +2,8 @@
 //                                           FUNCTIONS                                           //
 // ============================================================================================= //
 
-@use "sass:list";
-@use "sass:meta";
-@use "~@sass-collective/strip-unit";
+@use "~@sass-collective/em";
 
 @function em($values, $context) {
-    $result: ();
-
-    @each $value in $values {
-        $value: strip-unit.strip-unit($value);
-
-        @if $value == 0 {
-            $value: 0;
-        } @else {
-            $value: $value / strip-unit.strip-unit($context) * 1em;
-        }
-
-        @if meta.type-of($values) == "number" {
-            $result: $value;
-        } @else {
-            $result: list.append($result, $value);
-        }
-    }
-
-    @return $result;
+        @return em.convert($values, $context);
 }
