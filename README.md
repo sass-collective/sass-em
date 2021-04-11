@@ -4,7 +4,7 @@
 [![Download](https://flat.badgen.net/npm/dt/@sass-collective/sass-em)](https://www.npmjs.com/package/@sass-collective/sass-em)
 [![License](https://flat.badgen.net/npm/license/@sass-collective/sass-em)](https://www.npmjs.com/package/@sass-collective/sass-em)
 
-> **NOTE:** this repository has been transferred to Sass Collective monorepo [here](https://github.com/sass-collective/sass-collective/tree/master/packages/em), use this package, before the complete deprecation of this one.
+> **DEPRECATED:** this package has been moved to new reference in Sass Collective [monorepo](https://github.com/sass-collective/sass-collective/tree/master/packages/em) `@sass-collective/em`, use this package because the current repository is no more maintained.
 
 ## Introduction
 
